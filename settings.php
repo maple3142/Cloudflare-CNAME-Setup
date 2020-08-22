@@ -30,7 +30,7 @@ if (!function_exists('apcu_fetch')) {
 }
 
 $language_supported = [
-	'zh' => 'zh_CN.UTF-8',
+	'zh' => 'zh_TW.UTF-8'
 ];
 $lan = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5);
 $lan = strtolower($lan);
