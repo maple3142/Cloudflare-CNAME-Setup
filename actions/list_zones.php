@@ -17,7 +17,7 @@ if(!$no_api_key){
 	if(isset($tlo_promotion_header)){
 		echo $tlo_promotion_header;
 	} else {
-		echo '<div class="alert alert-warning" role="alert">' . _('No Host API key found. You cannot add new domain to this service.') . '</div>';
+		// echo '<div class="alert alert-warning" role="alert">' . _('No Host API key found. You cannot add new domain to this service.') . '</div>';
 	}
 } ?>
 <table class="table table-striped">
